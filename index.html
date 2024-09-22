@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="love-logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Inbox Message</title>
+</head>
+
+<body>
+
+    <div class="gif-background">
+        <img src="https://gifdb.com/images/high/funny-love-bear-sending-hearts-5uzvjgcmwyr2u7a7.gif"
+            alt="Love Bear GIF">
+    </div>
+    <div class="inbox" id="inbox">
+        <h2>YOU'RE MY DREAM GIRL</h2>
+        <button id="button" onclick="showMessage()">Click</button>
+
+        <div class="message" id="message">
+            My Dearest Sunshine,<br>
+
+            <p>As I sit down to write this letter, I can’t help but feel the warmth of your presence in my heart, even
+                though miles separate us. Each day, I am reminded of the love we share and the beautiful journey we are
+                on together, despite the distance.</p><br>
+
+                <p>I want you to know how much I admire your strength and resilience. The way you embrace each day, even
+                when we are apart, inspires me to be the best version of myself. It’s not easy, I know, but every
+                challenge we face only deepens my love for you and strengthens our bond.</p><br>
+
+                <p>Every time I think of you, I am filled with hope and excitement for our future. We may be living in two
+                different worlds for now, but every moment apart is a step closer to the life we dream of together. I
+                believe that our love is strong enough to bridge any distance and overcome any obstacle.</p><br>
+
+                <p>When days feel long and the nights feel lonely, remember that you are never truly alone. I am always
+                with you in spirit, cheering you on and supporting you from afar. Your dreams are just as important to
+                me as they are to you, and I am here, ready to celebrate every milestone you achieve.</p><br>
+
+                <p>Let’s keep nurturing our love, watering it with patience and understanding. Each message, each call, and
+                every shared memory brings us closer to the moment when we can finally be together again. I promise to
+                hold onto that vision, and I hope you will too.</p><br>
+
+                <p>As we continue this journey, let’s remind each other that this distance is temporary. Together, we are
+                creating a love story that will one day be filled with laughter, joy, and the sweet sound of our hearts
+                beating in sync.</p><br>
+
+                <p>You are my everything, and I believe in us. No matter the miles between us, you are always in my heart.
+                I can’t wait for the day when we can close this gap and create our beautiful life together.
+                Until then, stay strong, my love. We are in this together, and together we will rise.</p><br>
+
+                With all my love</p>
+
+            -Nimu<br>
+        </div>
+    </div>
+
+    <script>
+        function showMessage() {
+            const message = document.getElementById('message');
+            message.classList.add('show');
+            setTimeout(() => {
+                message.classList.remove('show');
+            }, 5000);
+        }
+    </script>
+
+</body>
+
+</html>
